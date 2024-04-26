@@ -1,3 +1,5 @@
+Standard StableBaselines Implementation, with one added parameter for simpler final evalaution callback. For more information look into the chagnes
+
 <img src="docs/\_static/img/logo.png" align="right" width="40%"/>
 
 <!-- [![pipeline status](https://gitlab.com/araffin/stable-baselines3/badges/master/pipeline.svg)](https://gitlab.com/araffin/stable-baselines3/-/commits/master) -->
