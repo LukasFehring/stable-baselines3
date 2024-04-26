@@ -103,7 +103,7 @@ def evaluate_policy(
                 episode_starts[i] = done
 
                 if callback is not None:
-                    callback(locals(), globals())
+                    callback(locals(), globals(), i)
 
                 if dones[i]:
                     if is_monitor_wrapped:
