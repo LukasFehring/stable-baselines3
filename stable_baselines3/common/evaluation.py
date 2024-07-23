@@ -139,4 +139,4 @@ def evaluate_policy(
         assert mean_reward > reward_threshold, "Mean reward below threshold: " f"{mean_reward:.2f} < {reward_threshold:.2f}"
     if return_episode_rewards:
         return episode_rewards, episode_lengths, actions_per_epiosode, rewards_per_epiosode
-    return mean_reward, std_reward
+    return mean_reward, std_reward, actions_per_epiosode
